@@ -16,7 +16,7 @@ class Question {
 
 }
 
-fun main() = session {
+fun main() =
     session {
         val question = Question()
         var options = liveListOf(question.options)
@@ -56,4 +56,3 @@ fun main() = session {
             }
         }
     }
-}

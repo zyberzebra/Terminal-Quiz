@@ -10,6 +10,9 @@ build/
 .idea/compiler.xml
 .idea/libraries/
 .idea/*
+.idea/sonarlint
+.idea/sonarlint/issuestore/*
+.idea/sonarlint/securityhotspotstore/*
 *.iws
 *.iml
 *.ipr
