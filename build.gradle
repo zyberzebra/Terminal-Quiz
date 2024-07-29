@@ -1,6 +1,6 @@
 plugins {
-    id 'org.jetbrains.kotlin.jvm' version '1.9.23'
-    id 'org.jetbrains.kotlin.plugin.serialization' version '1.9.23'
+    id 'org.jetbrains.kotlin.jvm' version '2.0.0-RC1'
+    id 'org.jetbrains.kotlin.plugin.serialization' version '2.0.0-RC1'
     id 'application'
 }
 
@@ -13,6 +13,14 @@ repositories {
 
 dependencies {
     implementation("com.varabyte.kotter:kotter-jvm:1.1.2")
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.5.31"
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.1")
+    implementation("io.ktor:ktor-client-core:1.6.3")
+    implementation("io.ktor:ktor-client-cio:1.6.3")
+    implementation("io.ktor:ktor-client-serialization:1.6.3")
+    implementation 'org.apache.commons:commons-text:1.12.0'
+
+
 }
 
 
